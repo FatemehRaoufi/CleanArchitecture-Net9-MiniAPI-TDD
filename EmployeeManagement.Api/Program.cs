@@ -39,7 +39,7 @@ using (var scope = app.Services.CreateScope())
 }
 //-------------------------------------------------------------------
 /*
-How does it work?
+How does MemoryCaching work?
 First Request: Data is fetched from the database and stored in the cache.
 Subsequent Requests: Data is served from the cache, reducing database load.
 
